@@ -25,13 +25,13 @@ local Window = Rayfield:CreateWindow({
    },
    KeySystem = true, -- ✅ ATIVADO (Rayfield nativo - mais seguro e profissional)
    KeySettings = {
-      Title = "🔑 Phanton PRO Key System",
+      Title = "Phanton PRO Key System",
       Subtitle = "Licença 2026",
-      Note = "Key oficial só no Discord PhantonHub ou compra VIP (HWID lock ativado)",
+      Note = "Key oficial: PhantonPHZS2k26 (compra VIP no Discord)",
       FileName = "PhantonKeyV3",
       SaveKey = true,
-      GrabKeyFromSite = true, -- ✅ Pega keys direto do servidor (anti-leak)
-      Key = {"https://raw.githubusercontent.com/raphaelsancho21-byte/Scripts/refs/heads/main/PhantonKeys.txt"} -- Coloca aqui seu pastebin/raw com as keys (uma por linha)
+      GrabKeyFromSite = false,  -- Desliga o pull online
+      Key = {"PhantonPHZS2k26"}  -- Tua key aqui direto!
    }
 })
 
