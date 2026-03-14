@@ -7,7 +7,6 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Phanton Aimbot PRO V3.0",
-   Icon = "rbxassetid://4483362458", 
    LoadingTitle = "Phanton Hub - 2026",
    LoadingSubtitle = "Key System + Ultra Pro",
    Theme = "Bloom", 
